@@ -21,7 +21,7 @@ app_dash.layout = html.Div(
     [Input('some-input', 'value')]  # Example input, modify as needed
 )
 def update_dash_plot(some_input_value):
-    # Your Dash callback code goes here
+    # Your Dash callback code goes here``
     data_dash = get_data_for_dash()
 
     # Example Dash plot using Plotly
